@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import am.view.ViewsPagerAdapter;
+import am.util.viewpager.adapter.ViewsPagerAdapter;
 import am.widget.basetabstrip.BaseTabStrip;
 import am.widget.indicatortabstrip.IndicatorTabStrip;
 
@@ -70,7 +70,7 @@ public class IndicatorTabStripActivity extends BaseActivity {
     }
 
     private class IndicatorTabStripViewsPagerAdapter extends ViewsPagerAdapter {
-        public IndicatorTabStripViewsPagerAdapter(List<View> views) {
+        IndicatorTabStripViewsPagerAdapter(List<View> views) {
             super(views);
         }
 
