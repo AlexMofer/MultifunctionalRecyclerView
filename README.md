@@ -14,7 +14,7 @@
 ```java
 dependencies {
     ⋯
-    compile 'am.widget:indicatortabstrip:26.0.0-alpha1'
+    compile 'am.widget:indicatortabstrip:26.0.0-beta1'
     ⋯
 }
 ```
@@ -76,6 +76,7 @@ tabs.bindViewPager(viewPager);
 
 ## 历史
 - [**25.4.0**](https://bintray.com/alexmofer/maven/IndicatorTabStrip/25.4.0)
+- [**26.0.0-alpha1**](https://bintray.com/alexmofer/maven/IndicatorTabStrip/26.0.0-alpha1)
 - [**25.3.1**](https://bintray.com/alexmofer/maven/IndicatorTabStrip/25.3.1)
 - [**25.3.0**](https://bintray.com/alexmofer/maven/IndicatorTabStrip/25.3.0)
 - [**25.2.0**](https://bintray.com/alexmofer/maven/IndicatorTabStrip/25.2.0)
