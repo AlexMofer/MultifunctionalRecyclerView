@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">IndicatorTabStrip</string>
-    <string name="indicatortabstrip_title">移动Tab</string>
+    <string name="app_name">MultifunctionalRecyclerView</string>
+    <string name="mrv_menu_mode_vertical_continuity">垂直连续</string>
+    <string name="mrv_menu_mode_vertical_singular">垂直单页</string>
+    <string name="mrv_menu_mode_horizontal_continuity">水平连续</string>
+    <string name="mrv_menu_mode_horizontal_singular">水平单页</string>
 </resources>

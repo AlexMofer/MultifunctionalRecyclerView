@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".multifunctionalrecyclerview.MultifunctionalRecyclerViewActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/mrv_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?colorPrimary"
+        android:theme="@style/ThemeOverlay.MultifunctionalRecyclerView.ActionBar"
+        app:menu="@menu/multifunctionalrecyckerview"
+        app:popupTheme="@style/ThemeOverlay.MultifunctionalRecyclerView.Popup"
+        app:title="@string/app_name" />
+
+    <com.am.widget.multifunctionalrecyclerview.MultifunctionalRecyclerView
+        android:id="@+id/mrv_rv_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:iacChangeAnimationsEnable="false" />
+
+</LinearLayout>

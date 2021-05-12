@@ -1,1 +1,3 @@
+rootProject.name = "MultifunctionalRecyclerView"
 include ':app'
+include ':multifunctionalrecyclerview'
