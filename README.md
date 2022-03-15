@@ -13,7 +13,7 @@ MultifunctionalRecyclerView
 ```
 dependencies {
     ...
-    implementation 'io.github.alexmofer.widget:multifunctionalrecyclerview:1.2.0'
+    implementation 'io.github.alexmofer.widget:multifunctionalrecyclerview:1.2.1'
     ...
 }
 ```

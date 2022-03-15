@@ -4,14 +4,14 @@ plugins {
 
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion '30.0.3'
+    compileSdkVersion 32
+    buildToolsVersion '32.0.0'
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 30
-        versionCode 18
-        versionName "1.2.0"
+        targetSdkVersion 32
+        versionCode 19
+        versionName "1.2.1"
     }
 
     compileOptions {
@@ -21,7 +21,7 @@ android {
 }
 
 dependencies {
-    compileOnly 'androidx.recyclerview:recyclerview:1.2.0'
+    compileOnly 'androidx.recyclerview:recyclerview:1.2.1'
 }
 
 //apply from: "maven-central-aar.gradle"
