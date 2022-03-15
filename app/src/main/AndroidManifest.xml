@@ -13,6 +13,7 @@
         tools:ignore="AllowBackup">
         <activity
             android:name=".multifunctionalrecyclerview.MultifunctionalRecyclerViewActivity"
+            android:exported="true"
             android:theme="@style/Theme.MultifunctionalRecyclerView.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
